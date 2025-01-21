@@ -41,7 +41,7 @@
     color: skyblue;
   }
   .ad{
-    counter-reset: 5D58EF;
+    color: slateblue;
   }
   .btn-nav{
     background-color: orange;
@@ -57,11 +57,11 @@
   }
  /*banar section related style*/
  .bannar{
-  max-width: 1140px;
-  max-height: 575px;
+
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: centerax-width: 1140px;
+  max-height: 575px;;
   margin: 0 auto;
  }
  .two{
@@ -79,4 +79,41 @@
  .bannar-image{
   margin: 0 auto;
  }
- 
+ /*Standard Curriculum Style*/
+ .standard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  max-width: 1140px;
+  max-height: 879px;;
+  margin: 0 auto;
+  border: 5px;
+ }
+ #stand{
+  text-align: center;
+  font-weight: bold;
+ }
+
+ }
+ .standard-card{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  rgb(58, 105, 107);
+    gap: 10px;
+  
+ }
+ .standard-card-one{
+  background-color: lightskyblue;
+  border-radius: 10px;
+  margin: 5px;
+ }
+ .standard-card-two{
+  background-color: bisque;
+  border-radius: 10px;
+  margin: 5px;
+ }
+ .standard-card-three{
+  background-color: slateblue;
+  border-radius: 10px;
+  margin: 5px;
+ }
