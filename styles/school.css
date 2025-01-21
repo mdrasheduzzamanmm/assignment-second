@@ -8,10 +8,75 @@
   }
 
   /* nav bar related style */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    max-height: 102px;
+    margin: 0 auto;
+    padding: 10px, 10px;
+  }
+  
+ }
+  }
   .logo {
-    image height: 62px;
-    image width: 62px;
+    font size: 4rem;
+  
+    
   }
   .display-flex{
     display: flex;
   }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .nav-links{
+    text-decoration: none;
+  }
+  .ora{
+    color: orange;
+  }
+  .sky{
+    color: skyblue;
+  }
+  .ad{
+    counter-reset: 5D58EF;
+  }
+  .btn-nav{
+    background-color: orange;
+    color: white;
+    font-size: 1.25rem;
+    padding: 5px 15px;
+    border-radius:10px;
+    border: none;
+  }
+  #three {
+    font: 2rem sans-serif;
+    font-weight: bold;
+  }
+ /*banar section related style*/
+ .bannar{
+  max-width: 1140px;
+  max-height: 575px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+ }
+ .two{
+  font: 3.5rem sans-serif;
+  font-weight: bold;
+ }
+ .btn-primary{
+  background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    padding: 5px 15px;
+    border-radius:10px;
+    border: none;
+ }
+ .bannar-image{
+  margin: 0 auto;
+ }
+ 
