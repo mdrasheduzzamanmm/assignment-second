@@ -147,3 +147,45 @@ grid-template-columns: repeat(2,2fr);
   display: block;
   margin: auto;
  }
+ /*Footer Section Style*/
+ .kids{
+  display: flex;
+  background-color:dodgerblue;
+  gap: 10px;
+ }
+ #log{
+  width: 25%;
+ }
+ .last{
+  width: 60%;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  }
+ .kids-one{
+  width: 50%;
+ }
+ .kids-onee{
+  display: flex;
+  align-items: center;
+ }
+ .kids-two{
+  width: 25%;
+ }
+ .kids-three{
+  width: 25%;
+ }
+ .about{
+  list-style: none;
+ }
+
+ /*Responsive Media Query*/
+ @media screen and (max-width:576px) {
+  .bannar, .standard, .ro{
+      flex-direction: column;
+      height: auto;
+  }
+  .row-two{
+      grid-template-columns: 1fr;
+  }
+}
